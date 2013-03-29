@@ -1,6 +1,6 @@
-package com.example.androidmontreal.mvp.infrastructure.event.event;
+package com.example.androidmontreal.mvp.domain.event.event;
 
-import com.example.androidmontreal.mvp.infrastructure.event.listener.OnRaceResultCreationEventListener;
+import com.example.androidmontreal.mvp.domain.event.listener.OnRaceResultCreationEventListener;
 
 public class RaceResultCreationEvent implements Event<OnRaceResultCreationEventListener>{
 

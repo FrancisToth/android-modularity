@@ -1,8 +1,8 @@
 package com.example.androidmontreal.mvp.domain.presenters;
 
-import com.example.androidmontreal.mvp.infrastructure.event.bus.EventBus;
-import com.example.androidmontreal.mvp.infrastructure.event.listener.OnRaceResultCreationEventListener;
-import com.example.androidmontreal.mvp.infrastructure.event.event.RaceResultCreationEvent;
+import com.example.androidmontreal.mvp.domain.event.bus.EventBus;
+import com.example.androidmontreal.mvp.domain.event.listener.OnRaceResultCreationEventListener;
+import com.example.androidmontreal.mvp.domain.event.event.RaceResultCreationEvent;
 import com.example.androidmontreal.mvp.domain.models.RaceResultsModel;
 import com.example.androidmontreal.mvp.domain.views.RaceResultsView;
 

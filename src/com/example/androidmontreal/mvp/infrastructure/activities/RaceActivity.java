@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import com.example.androidmontreal.R;
-import com.example.androidmontreal.mvp.infrastructure.event.bus.RaceEventBus;
+import com.example.androidmontreal.mvp.domain.event.bus.RaceEventBus;
 import com.example.androidmontreal.mvp.infrastructure.factories.PresenterFactory;
 import com.example.androidmontreal.mvp.domain.presenters.ChronometerViewPresenter;
 import com.example.androidmontreal.mvp.domain.presenters.RaceResultsViewPresenter;

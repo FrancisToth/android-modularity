@@ -2,9 +2,9 @@ package com.example.androidmontreal.mvp.domain.presenters;
 
 import com.example.androidmontreal.mvc.models.ChronometerModel;
 import com.example.androidmontreal.mvp.infrastructure.adapters.HandlerAdapter;
-import com.example.androidmontreal.mvp.infrastructure.event.bus.EventBus;
-import com.example.androidmontreal.mvp.infrastructure.event.event.RaceResultCreationEvent;
-import com.example.androidmontreal.mvp.infrastructure.event.listener.EventListener;
+import com.example.androidmontreal.mvp.domain.event.bus.EventBus;
+import com.example.androidmontreal.mvp.domain.event.event.RaceResultCreationEvent;
+import com.example.androidmontreal.mvp.domain.event.listener.EventListener;
 import com.example.androidmontreal.mvp.domain.views.ChronometerView;
 
 public class ChronometerViewPresenter implements Presenter<ChronometerView>, EventListener {

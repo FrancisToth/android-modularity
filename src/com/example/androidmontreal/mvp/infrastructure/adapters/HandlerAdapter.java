@@ -1,6 +1,7 @@
 package com.example.androidmontreal.mvp.infrastructure.adapters;
 
 import android.os.Handler;
+import com.example.androidmontreal.mvp.domain.adapters.RunnableHandler;
 
 public class HandlerAdapter implements RunnableHandler {
 

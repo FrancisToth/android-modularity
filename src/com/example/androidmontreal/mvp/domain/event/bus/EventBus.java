@@ -1,7 +1,7 @@
-package com.example.androidmontreal.mvp.infrastructure.event.bus;
+package com.example.androidmontreal.mvp.domain.event.bus;
 
-import com.example.androidmontreal.mvp.infrastructure.event.event.Event;
-import com.example.androidmontreal.mvp.infrastructure.event.listener.EventListener;
+import com.example.androidmontreal.mvp.domain.event.event.Event;
+import com.example.androidmontreal.mvp.domain.event.listener.EventListener;
 
 public interface EventBus {
 

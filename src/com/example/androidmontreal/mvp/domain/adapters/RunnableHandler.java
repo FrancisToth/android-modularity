@@ -1,4 +1,4 @@
-package com.example.androidmontreal.mvp.infrastructure.adapters;
+package com.example.androidmontreal.mvp.domain.adapters;
 
 public interface RunnableHandler {
     void removeCallbacks(Runnable r);
